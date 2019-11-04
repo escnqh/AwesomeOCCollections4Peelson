@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		318EF1641A3EDABDFFC812EA /* Pods_AwesomeOCCollections4Peelson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22324C26596122E9A7AE8BD /* Pods_AwesomeOCCollections4Peelson.framework */; };
+		644CDA67237011ED002A8AFF /* UIViewController+PIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CDA66237011ED002A8AFF /* UIViewController+PIAdditions.m */; };
 		6472552D235DA08200A67590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6472552C235DA08200A67590 /* AppDelegate.m */; };
 		64725530235DA08200A67590 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6472552F235DA08200A67590 /* SceneDelegate.m */; };
 		64725533235DA08200A67590 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64725532235DA08200A67590 /* MainPageViewController.m */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		01FC39408452863DB01DF9EE /* Pods_AwesomeOCCollections4Peelson_AwesomeOCCollections4PeelsonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeOCCollections4Peelson_AwesomeOCCollections4PeelsonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0A47A5EF1E721BC506EF5D /* Pods-AwesomeOCCollections4Peelson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeOCCollections4Peelson.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeOCCollections4Peelson/Pods-AwesomeOCCollections4Peelson.debug.xcconfig"; sourceTree = "<group>"; };
+		644CDA65237011ED002A8AFF /* UIViewController+PIAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PIAdditions.h"; sourceTree = "<group>"; };
+		644CDA66237011ED002A8AFF /* UIViewController+PIAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PIAdditions.m"; sourceTree = "<group>"; };
 		64725528235DA08200A67590 /* AwesomeOCCollections4Peelson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeOCCollections4Peelson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6472552B235DA08200A67590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6472552C235DA08200A67590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		644CDA5E237010CF002A8AFF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				644CDA5F237010E3002A8AFF /* Category */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		644CDA5F237010E3002A8AFF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				644CDA60237010F3002A8AFF /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		644CDA60237010F3002A8AFF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				644CDA612370110D002A8AFF /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		644CDA612370110D002A8AFF /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				644CDA65237011ED002A8AFF /* UIViewController+PIAdditions.h */,
+				644CDA66237011ED002A8AFF /* UIViewController+PIAdditions.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		6472551F235DA08200A67590 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +186,7 @@
 		6472552A235DA08200A67590 /* AwesomeOCCollections4Peelson */ = {
 			isa = PBXGroup;
 			children = (
+				644CDA5E237010CF002A8AFF /* General */,
 				64725560235DAA7800A67590 /* Controller */,
 				6472552B235DA08200A67590 /* AppDelegate.h */,
 				6472552C235DA08200A67590 /* AppDelegate.m */,
@@ -444,6 +481,7 @@
 				64725569235EFAA000A67590 /* Collection.m in Sources */,
 				64725533235DA08200A67590 /* MainPageViewController.m in Sources */,
 				6472552D235DA08200A67590 /* AppDelegate.m in Sources */,
+				644CDA67237011ED002A8AFF /* UIViewController+PIAdditions.m in Sources */,
 				6472553E235DA08500A67590 /* main.m in Sources */,
 				6472556C235EFEBE00A67590 /* CollectionsGroup.m in Sources */,
 				64725530235DA08200A67590 /* SceneDelegate.m in Sources */,

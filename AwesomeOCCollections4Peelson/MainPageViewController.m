@@ -43,13 +43,13 @@
 
     // 第一组
     {
-        Collection *collection1 = [Collection initWithTitle:@"Test1" andSummary:@"Test1 in group1"];
+        Collection *collection1 = [Collection initWithTitle:@"竖直滑动列表" andSummary:@"CollectionView&CollectionViewLayout"];
         collection1.onClickListener = ^{
             NSLog(@"clicked!");
         };
         Collection *collection2 = [Collection initWithTitle:@"Test2" andSummary:@"Test2 in group1"];
         Collection *collection3 = [Collection initWithTitle:@"Test3" andSummary:@"Test3 in group1"];
-        CollectionsGroup *group1 = [CollectionsGroup initWithGroupName:@"Group1" andCollections:[NSMutableArray arrayWithObjects:collection1, collection2, collection3, nil]];
+        CollectionsGroup *group1 = [CollectionsGroup initWithGroupName:@"列表Demo" andCollections:[NSMutableArray arrayWithObjects:collection1, collection2, collection3, nil]];
         [_collections addObject:group1];
     }
     // 第二组
